@@ -1,0 +1,51 @@
+html {
+    background-color: rgb(98, 98, 102);
+}
+
+p {
+    max-width: 60%;
+    text-align: center;
+    margin:auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    border: 3px rgb(136, 136, 156) solid;
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.header h1 {   
+    color: rgb(21, 23, 24);
+    background-color: rgb(136, 136, 156);
+    text-align:center
+}
+
+.header p {
+    text-align: center;
+    font-size: larger;
+    max-width: 100%;
+}
+
+.paragraphs h2 {
+    background-color: rgb(136, 136, 156);
+    text-align: center;
+    color: blue
+}
+.sources {
+    max-width: 60%;
+    text-align: center;
+    margin:auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.epilogue {
+    background-color:rgb(136, 136, 156);
+    max-width: 60%;
+    text-align: center;
+    margin:auto;
+    font-family: 'Times New Roman', Times, serif;
+    float:right;
+}
