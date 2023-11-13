@@ -98,7 +98,7 @@ header h1 {
 	niin näyttää tyylikkäämmältä */
 
 	/*Voi muokata täällä myös background-, color-arvoja.*/
-	background-color: #314252;
+	
 	padding: 10px;
 	border-radius: 10px;
 
@@ -112,9 +112,13 @@ header h1 {
 	/*Voi muokata täällä myös background-, color- 
 	font-size- ja font-family-arvoja.*/
 	color: #CED7E0;
+	background-color: #314252;
 	background-attachment: fixed;
 	font-family: 'Oswald', sans-serif;
 	font-size: large;
+	padding: 5px;
+	margin: 0;
+	border-radius: 10px;
 }
 
 /*Menu item when mouse over*/
@@ -124,7 +128,7 @@ header h1 {
 	kun kursori on sen päällä. Muuta paremmaksi */
 	color: #062C43; 
 	background: #CED7E0; 
-	padding: 3px;
+	padding: 5px;
 	margin: 0;
 	border-radius: 10px;
 }
@@ -213,9 +217,14 @@ article {
 	padding: 5px;
 	justify-content: space-between;
 	margin: 10px;
-	padding: 10px;
+	padding: 20px 20px 30px;
 	border-radius: 10px;
 
+}
+
+h2 {
+	margin: 0;
+	margin-bottom: 10px;
 }
 
 
