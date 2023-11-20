@@ -1,9 +1,10 @@
-.row {
-    background-color: cyan;
+.container {
+    background-color: rgb(59, 59, 59);
+}
+.row{
+    color: white;
     text-align: center;
-    margin: 5px;
-    padding: 1rem;
-    border: 2px solid white;
+    background-color: gho;
 }
 
 header {
@@ -12,10 +13,11 @@ header {
 
 nav {
     background-color: rgb(59, 59, 59);
+    text-align: center;
 }
 
-nav ul li a {
-    color: white;
+.nav-item {
+    background-color: ghostwhite;
 }
 
 footer {
@@ -24,3 +26,6 @@ footer {
     color: white;
 }
 
+img {
+    height: 250px;
+}
