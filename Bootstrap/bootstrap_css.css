@@ -1,0 +1,31 @@
+.container {
+    background-color: rgb(59, 59, 59);
+}
+.row{
+    color: white;
+    text-align: center;
+    background-color: gho;
+}
+
+header {
+    background-color: rgb(59, 59, 59);
+}
+
+nav {
+    background-color: rgb(59, 59, 59);
+    text-align: center;
+}
+
+.nav-item {
+    background-color: ghostwhite;
+}
+
+footer {
+    background-color: rgb(59, 59, 59);
+    text-align: center;
+    color: white;
+}
+
+img {
+    height: 250px;
+}
