@@ -1,3 +1,44 @@
 img {
     height: 250px;
+    border-radius: 5px;
 }
+
+
+header{
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+
+header span {
+    margin-left: 5px;
+}
+
+header ul li{
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    background-color: #5A2328 !important;
+}
+
+header ul li a {
+    color: white !important;
+}
+
+article p {
+    text-align: left;
+    margin: 5px;
+}
+
+button {
+    background-color: #5A2328 !important;
+    color: white !important;
+}
+
+footer{
+    background-color: antiquewhite;
+}
+footer p{
+    margin-left: 5px;
+}
+/* colors #ada9b7
+#a9afd1 b5b1b2 */
