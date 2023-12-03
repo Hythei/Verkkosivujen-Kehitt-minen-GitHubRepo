@@ -47,24 +47,50 @@ nav li a {
 
 }
 
+ul {
+    list-style: none;
+}
+
 main{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
 }
-article {
+
+.introduction{
+    display:flex;
+    color: white;
+    margin-top:10px; 
+    margin-bottom:10px ;
+}
+.introduction article {
     font-family: 'Arvo', serif;
     justify-content: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
     background-color:#323a45;
-    margin-top:10px;
-    margin-right: 5px;
+
 }
-article p {
+
+.introduction img{
+
+}
+.introduction article p {
     padding: 20px;
     color: white;
-    max-width: 200px;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 20px;
+    background-color:#323a45 ;
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color:#212121;
+    padding: 10px;
+    text-align: center;
+    color: white;
 }
