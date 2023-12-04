@@ -2,6 +2,7 @@ header {
     font-family: 'Arvo', serif;
 }
 
+
 img {
     width: 400px;
 }
@@ -52,12 +53,14 @@ ul {
 }
 
 main{
+    width: 1200px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .introduction{
-    display:flex;
+    justify-content: center !important;
     color: white;
     margin-top:10px; 
     margin-bottom:10px ;
@@ -67,12 +70,11 @@ main{
     justify-content: center;
     align-items: center;
     background-color:#323a45;
+    max-width: 500px;
 
 }
 
-.introduction img{
 
-}
 .introduction article p {
     padding: 20px;
     color: white;
