@@ -12,7 +12,9 @@ header{
     color: white;
 }
 .logo {
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
     font-size: 30px;
     font-weight: bold;
 }
@@ -32,16 +34,11 @@ nav ul {
 }
 
 nav li {
-    margin-right: 20px;
+    margin-right: 10px;
     padding: 5px;
 }
 
 nav li a{
-    /* color: white;
-    font-size: larger;
-    text-align: left;
-    line-height: 1.2; */
-
     display: inline-block;
     padding: 0.35em 1.2em;
     border: 0.1em solid white;
@@ -64,10 +61,18 @@ ul {
 }
 
 main{
+max-width: 100%;
+}
+
+#concepts {
     display: flex;
     flex-wrap: wrap;
-    flex-direction:row;
-    justify-content: space-evenly
+    flex-direction: column;
+    border-style:solid;
+    border-color: #212121;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .introduction{
@@ -88,16 +93,43 @@ main{
 }
 
 article {
-    justify-content:space-between;
     background-color:#323a45 ;
     color: white;
-    margin-bottom: 10px;
-    max-width: 40%;
-    padding: 20px 10px 5px;
+    max-width: 500px;
+    padding: 15px 15px 5px;
     font-family: 'Arvo', serif;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 
+}
+
+.button {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid white;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition: all 0.2s;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.button:hover{
+    color:black;
+    background-color: white;
+}
+
+#developments {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 article h2 {
@@ -120,19 +152,38 @@ footer{
 }
 
 @media screen and (max-width: 600px){
+    body {
+        background-color: blue;
+    }
+
     main{
         flex-direction: column;
     }
-    main article{
-        max-width: 100%;
+
+    .logo{
+        width: 100%;
     }
-    nav ul {
+
+    nav ul{
+        flex-direction: column;
+        bottom:0;
+        left:0;
+    }
+    #concepts{
         flex-direction: column;
     }
 }
 
+
 @media screen and (min-width: 900px){
+
     nav ul{
         flex-direction: row;
     }
+    #concepts {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
 }
