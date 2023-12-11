@@ -1,6 +1,6 @@
 
-header{
-    display: flex !important;
+.header_title{
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     
@@ -9,7 +9,7 @@ header{
     color: white;
     font-family: 'Arvo', serif;
 }
-.logo {
+.header_title .logo {
     margin-top: 10px;
     margin-left: 10px;
     padding: 5px;
@@ -62,7 +62,8 @@ ul {
 }
 
 main{
-max-width: 100%;
+    max-width: 100%;
+    background-color: #212121;
 }
 
 #concepts {
@@ -70,13 +71,13 @@ max-width: 100%;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-bottom: 10px;
-    
+
 }
 #concepts article{
-    display: flex;
     flex-direction: column;
+    align-items: center;
     max-width: 100%;
     
 }
@@ -117,7 +118,7 @@ article {
     color: white;
     text-align: center;
     transition: all 0.2s;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     margin-left: 10px;
     box-shadow: 5px 5px 5px grey;
 }
@@ -138,13 +139,14 @@ article {
 
 #developments article {
     background: none; 
+    width: 100%;
 }
 
 #developments h2 {
     background-color: #323a45;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
     font-family: 'Arvo', serif;
 }
 
@@ -156,8 +158,9 @@ article p {
 }
 
 article img {
-    max-width: 100%;
+    max-width: 90%;
     padding:0;
+    align-items: center;
 }
 
 footer{
@@ -187,32 +190,8 @@ footer{
 }
 
 
-/* @media screen and (max-width: 600px){
-    body {
-        background-color: blue;
-    }
-
-    main{
-        flex-direction: column;
-    }
-
-    .logo{
-        width: 100%;
-    }
-
-    nav ul{
-        flex-direction: column;
-        bottom:0;
-        left:0;
-    }
-    #concepts{
-        flex-direction: column;
-    }
-} */
-
-
 @media screen and (min-width: 900px){
-    header{
+    .header_title{
         flex-direction: row;
     }
     .logo{
@@ -233,23 +212,27 @@ footer{
     #concepts {
         display: flex;
         flex-direction: row;
+        flex-basis: 0;
     }
 
     #concepts article {
         max-width: 380px;
+        flex-grow: 1;
+
     }
 
     #developments {
         flex-direction: row;
+    }
+    #developments article{
+        max-width: 44%;
     }
 
 
 }
 
 @media screen and (min-width: 1200px) {
-    #concepts{
-        max-width: 400px;
-    }
+
     
     
 }
