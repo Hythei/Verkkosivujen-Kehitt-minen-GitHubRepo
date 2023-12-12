@@ -1,11 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(pics/back_image.jpg);  
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
 
 .header_title{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    
     width: 100%;
-    background-color:#212121 ;
+    background-color:#212121;
     color: white;
     font-family: 'Arvo', serif;
 }
@@ -63,9 +71,10 @@ ul {
 
 main{
     max-width: 100%;
-    background-color: #212121;
+    background-color: rgba(33, 33, 33, 0.7);
     margin-top: 10px;
     padding-top: 10px;
+    border-radius: 10px;
 }
 
 #concepts {
@@ -75,6 +84,10 @@ main{
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 
 }
 #concepts article{
@@ -83,6 +96,21 @@ main{
     max-width: 100%;
     
 }
+
+#concepts article h2 {
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-left-radius: 20px;
+    padding-bottom: 10px;
+}
+
+#concepts article img {
+    max-width: 100%;
+    padding:0;
+    align-items: center;
+    
+}
+
 .introduction{
     align-items: center;
     justify-content: center;
@@ -95,6 +123,11 @@ main{
     font-family: 'Arvo', serif;
     background-color:#323a45;
     background: none;
+    margin-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 .introduction article p, h2 {
     color: white;
@@ -132,7 +165,7 @@ article {
 }
 
 #developments {
-    background-color: #212121;
+    background-color: rgba(33, 33, 33, 0.7);
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -142,6 +175,11 @@ article {
 
 #developments article {
     background: none;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
 }
 
 #developments h2 {
@@ -161,11 +199,6 @@ article p {
     margin-bottom:20px;
 }
 
-article img {
-    max-width: 100%;
-    padding:0;
-    align-items: center;
-}
 
 footer{
     background: linear-gradient(#323a45, #212121);

@@ -1,9 +1,16 @@
-
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(pics/back_image.jpg);  
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
 .header_title{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    
     width: 100%;
     background-color:#212121 ;
     color: white;
@@ -22,6 +29,9 @@
     width:100%;
 }
 
+.card-body{
+    font-family: 'Arvo', serif;
+}
 nav{
     display: flex;
     flex-wrap: wrap;
@@ -63,39 +73,7 @@ ul {
 
 main{
     max-width: 100%;
-    background-color: #212121;
-}
-
-#concepts {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-
-}
-#concepts article{
-    flex-direction: column;
-    align-items: center;
-    max-width: 100%;
-    
-}
-.introduction{
-    align-items: center;
-    justify-content: center;
-    color: white;
-    margin-top:10px; 
-    margin-bottom:10px;
-    width: 100%;
-}
-.introduction article {
-    font-family: 'Arvo', serif;
-    background-color:#323a45;
-}
-.introduction article p, h2 {
-    color: white;
-    text-align: center;
+    background-color: rgba(33, 33, 33, 0.7);
 }
 
 article {
@@ -128,18 +106,30 @@ article {
     background-color: white;
 }
 
-
-article h2 {
-    margin-bottom: 10px;
+.challenges{
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
-article p {
-    padding: 20px 10px 5px;
+
+.specific_challenges{
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
-article img {
-    max-width: 100%;
-    padding:0;
-    align-items: center;
+.title{
+    text-align: center;
+    margin-top: 15px;
+    color: white;
 }
 
 footer{
@@ -166,6 +156,22 @@ footer{
     color: red;
     background-color: transparent;
     text-decoration: underline;
+}
+
+.card_btn{
+    padding: 0.5em 2em;
+    border: 0.1em solid black;
+    border-radius: 0.2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    background-color: #323a45;
+    text-align: center;
+    transition: all 0.2s;
+}
+.card_btn:hover{
+    color:black;
+    background-color: white;
 }
 
 
