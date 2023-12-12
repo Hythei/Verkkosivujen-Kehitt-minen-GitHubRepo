@@ -1,0 +1,238 @@
+
+.header_title{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    width: 100%;
+    background-color:#212121 ;
+    color: white;
+    font-family: 'Arvo', serif;
+}
+.header_title .logo {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    width:100%;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 10px;
+}
+
+nav li {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+nav li a{
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid white;
+    margin: 1px;
+    border-radius: 0.12em;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+nav li a:hover{
+    color:black;
+    background-color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+main{
+    max-width: 100%;
+    background-color: #212121;
+}
+
+#concepts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+#concepts article{
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    
+}
+.introduction{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top:10px; 
+    margin-bottom:10px;
+    width: 100%;
+}
+.introduction article {
+    font-family: 'Arvo', serif;
+    background-color:#323a45;
+}
+.introduction article p, h2 {
+    color: white;
+    text-align: center;
+}
+
+article {
+    background-color:#323a45 ;
+    color: white;
+    padding: 15px 15px 5px;
+    font-family: 'Arvo', serif;
+    margin:10px;
+
+}
+
+
+.button {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid white;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition: all 0.2s;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.button:hover{
+    color:black;
+    background-color: white;
+}
+
+#developments {
+    background-color: #212121;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#developments article {
+    background: none;
+}
+
+#developments h2 {
+    background-color: #323a45;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: 'Arvo', serif;
+    border-radius: 10px;
+}
+
+article h2 {
+    margin-bottom: 10px;
+}
+article p {
+    padding: 20px 10px 5px;
+}
+
+article img {
+    max-width: 100%;
+    padding:0;
+    align-items: center;
+}
+
+footer{
+    background: linear-gradient(#323a45, #212121);
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.card-img-top {
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.card-title a:link {
+    font-size: 30px;
+    background-color: transparent;
+    color: #000000;
+    text-decoration: none;
+}
+
+.card-title a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+@media screen and (min-width: 900px){
+    .header_title{
+        flex-direction: row;
+    }
+    .logo{
+        width: 0;   
+    }
+    nav ul{
+        flex-direction: row;
+    }
+
+    .introduction{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .introduction article{
+        max-width: 45%;
+    }
+    #concepts {
+        display: flex;
+        flex-direction: row;
+        flex-basis: 0;
+    }
+
+    #concepts article {
+        max-width: 380px;
+        flex-grow: 1;
+
+    }
+
+    #developments {
+        flex-direction: row;
+    }
+    #developments article{
+        max-width: 44%;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    
+    
+}
