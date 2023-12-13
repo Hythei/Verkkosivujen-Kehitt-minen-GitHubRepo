@@ -8,6 +8,10 @@ body {
     background-position: center;
 }
 
+p {
+    font-family: 'Barlow', sans-serif;
+}
+
 .header_title{
     display: flex;
     flex-wrap: wrap;
@@ -130,6 +134,7 @@ main{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+
 .introduction article p, h2 {
     color: white;
     text-align: center;

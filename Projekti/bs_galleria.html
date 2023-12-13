@@ -8,11 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Barlow:wght@500&display=swap" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
     <header class="header_title">
         <div class="logo">Future Ideation</div>
         <nav>
@@ -204,39 +204,60 @@
 
         <div class="more_info container">
             <div class="row">
-                <article class="challenges col-lg-12 col-md-12 col-sm-12">
+                <article class="col-lg-12 col-md-12 col-sm-12">
                     <h2>
                         Further Information
                     </h2>
                     <p>
-                        For further reading and learning on matters related to megastructures and other hypothetical constructs, I recommend the following Youtube creators and their respective websites and books and such.
+                        For further reading and learning on matters related to megastructures and other hypothetical constructs, I recommend the following youtuber and producer, Isaac Arthur, for their excellent videos and podcasts on all things science fiction.
                     </p>
                 </article>
             </div>
-            <div class="carousel slide" id="videoCarousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="embed-responsive embed-responsive-16by9">
-                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1xt13dn74wc?si=s7euGm6hQHrN6-cM" allowfullscreen></iframe>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="embed-responsive embed-responsive-16by9">
-                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FE-2wMtLw6E?si=lXyvvcJAZf9xBSNB" allowfullscreen></iframe>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="embed-responsive embed-responsive-16by9">
-                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eucZFK8AG8s?si=gMssNe3Pznd9Brct" allowfullscreen></iframe>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#videoCarousel" data-bs-slide="prev"></button>
-                <button class="carousel-control-next" type="button" data-bs-target="#videoCarousel" data-bs-slide="next"></button>
-              </div>
+            <div class="youtube_video embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1xt13dn74wc?si=6XapbqJYVrqiDLgz"></iframe>
+            </div>
               
             
         </div>
+
+        <div id="literaryworks" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" align="center">
+              <div class="carousel-item active">
+                <img src="pics/House of Suns.jpg" class="d-block" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>House of Suns</h5>
+                  <p>Feautures Dyson Swarms, Spheres, artificial worlds, and stellar migration.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="pics/Pandoras Star.jpg" class="d-block" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Pandora's Star</h5>
+                  <p>Features Dyson Spheres and Ringworlds.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="pics/Ringworldbook.jpg" class="d-block" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Ringworld</h5>
+                  <p>You will literally never guess what kind of megastructure is hidden within these pages.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#literaryworks" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#literaryworks" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 
     </main>
 
