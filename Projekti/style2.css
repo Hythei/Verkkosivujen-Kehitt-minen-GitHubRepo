@@ -223,13 +223,27 @@ footer{
     font-family: 'Arvo', serif;
     flex-grow: 1;
     min-width: 0;
-}
-
-.Guidelines{
     border-bottom-style: solid;
     border-bottom-color: white;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    border-top-style: solid;
+    border-top-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.comment_title{
+    font-size: larger;
+    border-bottom-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    text-align: center;
+    align-items: center;
+    width: 100%
+}
+
+.Guidelines{
     font-size: larger;
     color: white;
 }
@@ -342,7 +356,7 @@ footer{
         background-color: #323a45;
         padding: 10px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: flex-start;
     }
     .Guidelines {
@@ -352,6 +366,12 @@ footer{
     .comment_box{
         width: 50%;
         padding-left: 10px;
+    }
+    
+    .nested_comment_area{
+        display: flex;
+        flex-direction: row;
+        flex: 1
     }
 
     
