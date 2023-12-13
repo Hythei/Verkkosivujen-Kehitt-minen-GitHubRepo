@@ -7,9 +7,10 @@ body {
     background-attachment: fixed;
     background-position: center;
 }
-p{
-    font-family: 'Barlow', sans-serif;
+h2, h5 {
+    font-family: 'Arvo', serif;
 }
+
 .header_title{
     display: flex;
     flex-wrap: wrap;
@@ -162,6 +163,20 @@ footer{
     background-color: white;
 }
 
+.lit_works_div{
+    width: 100%;
+}
+
+.lit_works_div h5, h2{
+    font-family: 'Arvo', serif;
+}
+.lit_works_title{
+    text-align: center;
+    border-radius: 10px;
+    padding:10px;
+    margin: 10px;
+
+}
 
 .more_info{
     align-items: center;
