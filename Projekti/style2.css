@@ -10,6 +10,7 @@ body {
 
 p {
     font-family: 'Barlow', sans-serif;
+    font-size: large;
 }
 
 .header_title{
@@ -160,7 +161,7 @@ article {
     color: white;
     text-align: center;
     transition: all 0.2s;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-left: 10px;
     box-shadow: 5px 5px 5px grey;
 }

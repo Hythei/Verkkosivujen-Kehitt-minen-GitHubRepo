@@ -9,6 +9,7 @@ body {
 }
 h2, h5 {
     font-family: 'Arvo', serif;
+    padding-left: 10px;
 }
 
 .header_title{
@@ -98,6 +99,10 @@ article {
     border-bottom-color: white;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+
+p {
+    padding-left: 10px;
 }
 
 .specific_challenges{
