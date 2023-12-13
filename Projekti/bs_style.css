@@ -29,6 +29,8 @@ body {
     width:100%;
 }
 
+
+
 .card-body{
     font-family: 'Arvo', serif;
 }
@@ -119,6 +121,7 @@ article {
 .specific_challenges{
     margin-bottom: 15px;
     padding: 15px;
+    padding-right: 20px;
     border-radius: 10px;
     border-bottom-style: solid;
     border-bottom-color: white;
@@ -126,10 +129,14 @@ article {
     border-bottom-right-radius: 20px;
 }
 
-.title{
+.main_title{
     text-align: center;
     margin-top: 15px;
     color: white;
+    background-color: rgba(33, 33, 33, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
 }
 
 footer{

@@ -101,6 +101,7 @@ main{
     border-bottom-style: solid;
     border-bottom-color: white;
     border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     padding-bottom: 10px;
 }
 
@@ -208,6 +209,91 @@ footer{
     color: white;
 }
 
+.comment_area {
+    background-color: #323a45;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Arvo', serif;
+    flex-grow: 1;
+    min-width: 0;
+}
+
+.Guidelines{
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: larger;
+    color: white;
+}
+.Guidelines li{
+    margin-bottom: 15px;
+}
+.comment_area button {
+    background-color: #212121;
+    padding: 0.7em 2em;
+    border: 0.1em solid white;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    transition: all 0.2s;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    box-shadow: 5px 5px 5px grey;
+    font-family: 'Arvo', serif;
+}
+.comment_area button:hover{
+    color:white;
+    background-color: #323a45;
+}
+.comment_box{
+    background-color: rgba(33, 33, 33, 0.7);
+    padding: 30px;
+    border-radius:10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.comment_box h2{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group textarea:focus {
+  background-color: #fff;
+}
 
 @media screen and (min-width: 900px){
     .header_title{
@@ -247,6 +333,23 @@ footer{
         max-width: 44%;
     }
 
+    .comment_area {
+        background-color: #323a45;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .Guidelines {
+        width: 50%;
+        padding-right: 10px;
+    }
+    .comment_box{
+        width: 50%;
+        padding-left: 10px;
+    }
+
+    
 
 }
 
