@@ -134,6 +134,14 @@ footer{
     color: white;
 }
 
+.card-body{
+    background-color: #323a45;
+    color: white !important;
+}
+.card-title{
+    padding-left: 10px;
+}
+
 .card-img-top {
     max-height: 250px;
     overflow: hidden;
@@ -153,15 +161,18 @@ footer{
 }
 
 .card_btn{
+    display: inline-block;
     padding: 0.5em 2em;
-    border: 0.1em solid black;
-    border-radius: 0.2em;
+    border: 0.1em solid white;
+    border-radius: 0.12em;
     box-sizing: border-box;
     text-decoration: none;
     color: white;
-    background-color: #323a45;
     text-align: center;
     transition: all 0.2s;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 5px grey;
 }
 .card_btn:hover{
     color:black;
